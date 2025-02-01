@@ -3,9 +3,6 @@
 
 A simple Flutter application that demonstrates user authentication (login and signup) using Firebase. This project features a beautiful UI with gradient backgrounds and custom icons, designed for both mobile and tablet devices.
 
-<<ImageDisplayed>>
-<<ImageDisplayed>>
-
 ---
 
 ## Table of Contents
