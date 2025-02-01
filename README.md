@@ -73,3 +73,99 @@ A simple Flutter application that demonstrates user authentication (login and si
    ```bash
    git clone https://github.com/your-username/flutter-firebase-login.git
    cd flutter-firebase-login
+   # Project Title
+
+## Install Dependencies
+
+Open your terminal and run:
+
+```bash
+flutter pub get
+```
+
+## Run the App
+
+To run the application, execute:
+
+```bash
+flutter run
+```
+
+## Firebase Configuration
+
+1. Go to the [Firebase Console](https://console.firebase.google.com/).
+2. Create a new project and add a Flutter app to it.
+3. Download the configuration file:
+   - For Android: `google-services.json`
+   - For iOS: `GoogleService-Info.plist`
+4. Place the file in the appropriate directory:
+   - **Android:** Place `google-services.json` in `android/app/`
+   - **iOS:** Place `GoogleService-Info.plist` in `ios/Runner/`
+5. Enable Email/Password Authentication in the Firebase Console under the Authentication section.
+
+## Dependencies
+
+This project uses the following Flutter packages:
+
+- **firebase_core**: For Firebase initialization.
+- **firebase_auth**: For user authentication (login/signup).
+- **cloud_firestore**: For storing user data (optional).
+- **google_fonts**: For custom fonts.
+
+## Usage
+
+To run the application, execute:
+
+```bash
+flutter run
+```
+
+### Authentication
+
+- **Login Screen:** Sign in with an existing account.
+- **Signup Screen:** Register a new account by providing your email, password, pseudo, and birthdate.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request.
+
+1. Fork the project.
+2. Create a new branch:
+
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+
+3. Commit your changes:
+
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+
+4. Push to the branch:
+
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+
+5. Open a pull request.
+
+For more details, see our `CONTRIBUTING.md` file.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+<details>
+  <summary><strong>Additional Information</strong> (Click to expand)</summary>
+
+### Flutter Resources
+
+- [Flutter Documentation](https://flutter.dev/docs) – Comprehensive guide to Flutter development.
+- [Firebase for Flutter](https://firebase.flutter.dev/) – Firebase integration for Flutter apps.
+
+### Contact
+
+If you have any questions, feel free to reach out.
+</details>
+
