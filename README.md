@@ -51,7 +51,7 @@ A simple Flutter application that demonstrates user authentication (login and si
 
 ### Signup Screen
 
-![Signup Screen](https://yourdomain.com/path/to/signup-screen.png)
+![image](https://github.com/user-attachments/assets/5b8ca987-44a5-4fcb-a56d-c7265e2cd33c)
 
 > **Note:** Replace the image URLs above with your actual screenshot links.
 
